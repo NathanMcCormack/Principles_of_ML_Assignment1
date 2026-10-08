@@ -1,0 +1,43 @@
+df.isnull().sum() - checks every value for missing data and sums the total missing for each column:
+Participant     0
+HR             44
+respr           0
+Time(sec)       0
+Label           0
+
+print(df["Participant"].value_counts()) - counts how many data points each participant has. Why do some have less than others?:
+Participant
+14    3567
+34    3561
+2     3557
+4     3531
+35    3515
+15    3450
+16    3438
+18    3414
+20    3388
+7     3371
+27    3370
+13    3337
+12    3333
+30    3328
+6     3310
+3     3309
+17    3303
+31    3299
+28    3298
+29    3286
+11    3270
+5     3269
+24    3269
+26    3231
+33    3228
+21    3218
+25    3204
+32    3199
+19    3185
+9     3178
+8     3136
+23    3080
+22    3055
+10    3029
